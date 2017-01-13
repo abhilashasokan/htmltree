@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <div class="css-treeview">
+        <ul>
+            <li>
+                <input type="checkbox" />
+                <label>This Folder is Closed By Default</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" />
+                        <label>Ooops! A Nested Folder</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" />
+                                <label>Look Ma - No Hands!</label>
+                                <ul>
+                                    <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:SILVER'>Lorem ipsum dolor sit amet.</span>">First Nested Item</li>
+                                    <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:GRAY'>Lorem ipsum dolor sit amet.</span>">Second Nested Item</li>
+                                    <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:RED'>Lorem ipsum dolor sit amet.</span>">Third Nested Item</li>
+                                    <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:MAROON'>Lorem ipsum dolor sit amet.</span>">Fourth Nested Item</li>
+                                </ul>
+                            </li>
+                            <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:YELLOW'>Lorem ipsum dolor sit amet.</span>">Item 1</li>
+                            <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:LIME'>Lorem ipsum dolor sit amet.</span>">Item 2</li>
+                            <li class="file" data-csdata_type="div" draggable="true" data-dragcontent="<span style='color:OLIVE'>Lorem ipsum dolor sit amet.</span>">Item 3</li>
+                        </ul>
+                    </li>
+                    <li class="file" data-csdata_type="article" draggable="true" data-dragcontent="<span style='color:AQUA'>Lorem ipsum dolor sit amet.</span>">item</li>
+                    <li class="file" data-csdata_type="article" draggable="true" data-dragcontent="<span style='color:TEAL'>Lorem ipsum dolor sit amet.</span>">item</li>
+                    <li class="file" data-csdata_type="article" draggable="true" data-dragcontent="<span style='color:NAVY'>Lorem ipsum dolor sit amet.</span>">item</li>
+                    <li class="file" data-csdata_type="article" draggable="true" data-dragcontent="<span style='color:FUCHSIA'>Lorem ipsum dolor sit amet.</span>">item</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="outerbox">
+        <div class="dropzones" id="dvDest1" data-csdata_type="div"></div>
+        <div class="dropzones" id="dvDest2" data-csdata_type="div"></div>
+        <div class="dropzones" id="dvDest3" data-csdata_type="div"></div>
+        <div class="dropzones" id="dvDest4" data-csdata_type="article"></div>
+        <div class="dropzones" id="dvDest5" data-csdata_type="article"></div>
+        <div class="dropzones" id="dvDest6" data-csdata_type="article"></div>
+    </div>
+</body>
+
+</html>

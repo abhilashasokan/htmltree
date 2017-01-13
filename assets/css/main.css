@@ -1,0 +1,28 @@
+.dropzones {
+    border: 1px solid #ccc;
+    padding: 5px;
+    min-height: 100px;
+    width: 250px;
+    display: table-cell;
+}
+
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+#outerbox {
+    height: 250px;
+    display: table;
+}
+
+.highlighted {
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
